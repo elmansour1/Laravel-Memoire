@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Enseignant;
 
 class EnseignantController extends Controller
 {
@@ -13,7 +14,8 @@ class EnseignantController extends Controller
      */
     public function index()
     {
-        //
+        $enseignants = Enseignant::get();
+        return view('enseignant.index', compact('enseignants'));
     }
 
     /**
@@ -23,7 +25,7 @@ class EnseignantController extends Controller
      */
     public function create()
     {
-        //
+       return view('enseignant.create');
     }
 
     /**
@@ -34,7 +36,8 @@ class EnseignantController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       $enseignant = Enseignant::create($request->all());
+       return redirect(route('enseignant.index'));
     }
 
     /**
@@ -56,7 +59,8 @@ class EnseignantController extends Controller
      */
     public function edit($id)
     {
-        //
+       $enseignant = Enseignant::findOrFail($id);
+       return view('enseignant.edit',compact('enseignant'));
     }
 
     /**
@@ -68,7 +72,9 @@ class EnseignantController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $enseignant = Enseignant::findOrFail($id);
+        $enseignant->update($request->all());
+        return redirect(route('enseignant.index'));
     }
 
     /**
@@ -79,6 +85,7 @@ class EnseignantController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $enseignant = Enseignant::findOrFail($id)->delete();
+        return redirect(route('enseignant.index'));
     }
 }

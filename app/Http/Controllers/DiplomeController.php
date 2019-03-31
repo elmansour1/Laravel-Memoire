@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Diplome;
 
 class DiplomeController extends Controller
 {
@@ -13,7 +14,8 @@ class DiplomeController extends Controller
      */
     public function index()
     {
-        //
+        $diplomes = Diplome::get();
+        return view('diplome.index',compact('diplomes'));
     }
 
     /**
@@ -23,7 +25,7 @@ class DiplomeController extends Controller
      */
     public function create()
     {
-        //
+        return view('diplome.create');
     }
 
     /**
@@ -34,7 +36,8 @@ class DiplomeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $diplome = Diplome::create($request->all());
+        return redirect(route('diplome.index'));
     }
 
     /**
@@ -56,7 +59,8 @@ class DiplomeController extends Controller
      */
     public function edit($id)
     {
-        //
+        $diplome = Diplome::findOrFail($id);
+        return view('diplome.edit',compact('diplome'));
     }
 
     /**
@@ -68,7 +72,9 @@ class DiplomeController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+       $diplome = Diplome::findOrFail($id);
+       $diplome->update($request->all());
+       return redirect(route('diplome.index'));
     }
 
     /**
@@ -79,6 +85,7 @@ class DiplomeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $diplome = Diplome::findOrFail($id)->delete();
+        return redirect(route('diplome.index'));
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Parcour;
 
 class ParcourController extends Controller
 {
@@ -13,7 +14,8 @@ class ParcourController extends Controller
      */
     public function index()
     {
-        //
+        $parcours = Parcour::get();
+        return view('parcour.index',compact('parcours'));
     }
 
     /**
@@ -23,7 +25,7 @@ class ParcourController extends Controller
      */
     public function create()
     {
-        //
+       return view('parcour.create');
     }
 
     /**
@@ -34,7 +36,8 @@ class ParcourController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $parcour = Parcour::create($request->all());
+        return redirect(route('parcour.index'));
     }
 
     /**
@@ -56,7 +59,8 @@ class ParcourController extends Controller
      */
     public function edit($id)
     {
-        //
+        $parcour = Parcour::findorFail($id);
+        return view('parcour.edit',compact('parcour'));
     }
 
     /**
@@ -68,7 +72,9 @@ class ParcourController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $parcour = Parcour::findorFail($id);
+        $parcour->update($request->all());
+        return redirect(route('parcour.index'));
     }
 
     /**
@@ -79,6 +85,7 @@ class ParcourController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $parcour = Parcour::findorFail($id)->delete();
+        return redirect(route('parcour.index'));
     }
 }

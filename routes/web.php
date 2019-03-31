@@ -16,3 +16,11 @@ Route::get('/about','PagesControllers@about');
 Route::get('/contact','PagesControllers@contact');
 Route::resource('/author','AuthorController');
 Route::resource('/memoire','MemoireController');
+Route::resource('/enseignant','EnseignantController');
+Route::resource('departement','DepartementController');
+Route::resource('/diplome','DiplomeController');
+Route::resource('/parcour','ParcourController');
+Route::resource('/specialisation','SpecialisationController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

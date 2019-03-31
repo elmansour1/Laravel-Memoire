@@ -7,7 +7,7 @@
 			<div class="card">
 				<div class="card-header">Ajouter un Memoire</div>
 				<div class="card-body">
-					{!! Form::open() !!}
+					{!! Form::open(['url'=>route('memoire.store')]) !!}
 						@csrf
 
 						 <div class="form-group row">
@@ -28,7 +28,7 @@
 						</div>  
 						<div class="form-group row">
 							{!! Form::label('parcours','Memoire',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
-							{!! Form::select('parcours',App\Parcour::list('cycle','id'),null,['class'=>'form-control col-sm-6']) !!}
+							{!! Form::select('parcours',App\Parcour::lists('titre','id'),null,['class'=>'form-control col-sm-6']) !!}
 						</div>   
 						<div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">

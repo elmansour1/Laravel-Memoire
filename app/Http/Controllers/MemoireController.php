@@ -15,6 +15,7 @@ class MemoireController extends Controller
     public function index()
     {
         $memoires = Memoire::get();
+        //$par = $memoires->parcour()->get();
         return view('memoire.index', compact('memoires'));
     }
 
@@ -25,7 +26,9 @@ class MemoireController extends Controller
      */
     public function create()
     {
-       return view('memoire.create');
+        $memoires = Memoire::get();
+        $parcours = $memoires->parcour()->get();
+       return view('memoire.create', compact('parcours'));
     }
 
     /**
