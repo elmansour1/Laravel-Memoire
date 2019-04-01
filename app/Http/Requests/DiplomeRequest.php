@@ -13,7 +13,7 @@ class DiplomeRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,7 @@ class DiplomeRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'titre' => 'required|min:2|max:60'
         ];
     }
 }

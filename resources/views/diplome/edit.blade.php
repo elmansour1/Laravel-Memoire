@@ -10,9 +10,10 @@
 					{!! Form::open(['method'=>'put','url'=>route('diplome.update',$diplome)]) !!}
 						@csrf
 
-						 <div class="form-group row">
+						 <div class="form-group row {!! $errors->has('titre') ? 'has-error':'' !!}">
 							{!! Form::label('titre','Titre',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
 							{!! Form::text('titre',$diplome->titre,['class'=>'form-control col-sm-6']) !!}
+							{!! $errors->first('titre','<small class="help-block">:message</small>') !!}
 						</div>
 						<div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">

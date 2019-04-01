@@ -13,7 +13,7 @@ class DepartementRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,8 @@ class DepartementRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'code' => 'required|max:10',
+            'intitule' => 'required|max:250'
         ];
     }
 }

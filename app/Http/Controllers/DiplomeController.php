@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\DiplomeRequest;
 use App\Diplome;
 
 class DiplomeController extends Controller
@@ -34,7 +35,7 @@ class DiplomeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(DiplomeRequest $request)
     {
         $diplome = Diplome::create($request->all());
         return redirect(route('diplome.index'));
@@ -70,7 +71,7 @@ class DiplomeController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(DiplomeRequest $request, $id)
     {
        $diplome = Diplome::findOrFail($id);
        $diplome->update($request->all());

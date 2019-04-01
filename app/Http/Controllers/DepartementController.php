@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\DepartementRequest;
 use App\Departement;
 
 class DepartementController extends Controller
@@ -34,7 +35,7 @@ class DepartementController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(DepartementRequest $request)
     {
        $departement = Departement::create($request->all());
        return redirect(route('departement.index'));
@@ -70,7 +71,7 @@ class DepartementController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(DepartementRequest $request, $id)
     {
         $departement = Departement::findOrFail($id);
         $departement->update($request->all());
