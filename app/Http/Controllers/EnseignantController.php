@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\EnseignantRequest;
 use App\Enseignant;
 
 class EnseignantController extends Controller
@@ -34,7 +35,7 @@ class EnseignantController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(EnseignantRequest $request)
     {
        $enseignant = Enseignant::create($request->all());
        return redirect(route('enseignant.index'));
@@ -70,7 +71,7 @@ class EnseignantController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(EnseignantRequest $request, $id)
     {
         $enseignant = Enseignant::findOrFail($id);
         $enseignant->update($request->all());

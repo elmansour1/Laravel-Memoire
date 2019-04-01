@@ -8,13 +8,15 @@
 			<div class="card-header">Editer</div>
 				<div class="card-body">
 				{!! Form::open(['method'=>'put','url'=>route('enseignant.update',$enseignant)]) !!}
-				<div class="form-group">
+				<div class="form-group {!! $errors->has('nom') ? 'has-error': '' !!}">
 					{!! Form::label('nom','Nom',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
 					{!! Form::text('nom',$enseignant->nom,['class'=>'form-control ']) !!}
+					{!! $errors->first('nom','<small class="help-block">:message</small>') !!}
 				</div>
-				<div class="form-group raw">
+				<div class="form-group raw {!! $errors->has('grade') ? 'has-error': '' !!}">
 					{!! Form::label('grade','Grade',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
 					{!! Form::text('grade',$enseignant->grade,['class'=>'form-control']) !!}
+					{!! $errors->first('grade','<small class="help-block">:message</small>') !!}
 				</div>				
 				<div class="form-group row ">
 	                <div class="col-md-6 offset-md-4">

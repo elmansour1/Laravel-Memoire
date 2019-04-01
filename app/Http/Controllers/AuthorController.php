@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Author;
+use App\Http\Requests\AuthorRequest;
 
 class AuthorController extends Controller
 {
@@ -35,9 +36,10 @@ class AuthorController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(AuthorRequest $request)
     {
         $auteur = Author::create($request->all());
+        //$this->authorize('pass', $auteur);
         return redirect(route('author.index'));
     }
 
@@ -71,7 +73,7 @@ class AuthorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(AuthorRequest $request, $id)
     {
         // dd($request->all());
          $auteur = Author::findOrFail($id);
