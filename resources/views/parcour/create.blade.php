@@ -10,9 +10,10 @@
 					{!! Form::open(['url'=>route('parcour.store')]) !!}
 						@csrf
 
-						 <div class="form-group row">
+						 <div class="form-group row {!! $errors->has('cycle') ? 'has-error':'' !!}">
 							{!! Form::label('cycle','Cycle',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
 							{!! Form::text('cycle',null,['class'=>'form-control col-sm-6']) !!}
+							{!! $errors->first('cycle','<small class="help-block">:message</small>') !!}
 						</div>
 						<div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">

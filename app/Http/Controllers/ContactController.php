@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Requests\ParcourRequest;
-use App\Parcour;
+use App\Http\Requests\ContactRequest;
 
-class ParcourController extends Controller
+use App\Contact;
+
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +16,7 @@ class ParcourController extends Controller
      */
     public function index()
     {
-        $parcours = Parcour::get();
-        return view('parcour.index',compact('parcours'));
+        return view('contact.index');
     }
 
     /**
@@ -26,7 +26,7 @@ class ParcourController extends Controller
      */
     public function create()
     {
-       return view('parcour.create');
+        //
     }
 
     /**
@@ -35,10 +35,10 @@ class ParcourController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(ParcourRequest $request)
+    public function store(Request $request)
     {
-        $parcour = Parcour::create($request->all());
-        return redirect(route('parcour.index'));
+        $contact = Contact::create($request->all());
+        return redirect(route('contact.show', compact('contact')));
     }
 
     /**
@@ -49,7 +49,8 @@ class ParcourController extends Controller
      */
     public function show($id)
     {
-        //
+       $contact = Contact::findOrFail($id);
+       return view('contact.show',  compact('contact'));
     }
 
     /**
@@ -60,8 +61,7 @@ class ParcourController extends Controller
      */
     public function edit($id)
     {
-        $parcour = Parcour::findorFail($id);
-        return view('parcour.edit',compact('parcour'));
+        //
     }
 
     /**
@@ -71,11 +71,9 @@ class ParcourController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(ParcourRequest $request, $id)
+    public function update(Request $request, $id)
     {
-        $parcour = Parcour::findorFail($id);
-        $parcour->update($request->all());
-        return redirect(route('parcour.index'));
+        //
     }
 
     /**
@@ -86,7 +84,6 @@ class ParcourController extends Controller
      */
     public function destroy($id)
     {
-        $parcour = Parcour::findorFail($id)->delete();
-        return redirect(route('parcour.index'));
+        //
     }
 }

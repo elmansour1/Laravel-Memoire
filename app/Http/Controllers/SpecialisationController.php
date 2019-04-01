@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\SpecialisationRequest;
 use App\Specialisation;
 
 class SpecialisationController extends Controller
@@ -34,7 +35,7 @@ class SpecialisationController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(SpecialisationRequest $request)
     {
         $specialisation = Specialisation::create($request->all());
         return redirect(route('specialisation.index'));
@@ -70,7 +71,7 @@ class SpecialisationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(SpecialisationRequest $request, $id)
     {
         $specialisation = Specialisation::findOrFail($id);
         $specialisation->update($request->all());

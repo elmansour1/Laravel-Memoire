@@ -13,7 +13,7 @@ class MemoireRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,8 @@ class MemoireRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'titre' => 'required|max:250',
+            'mots_cle' => 'required|max:250'
         ];
     }
 }

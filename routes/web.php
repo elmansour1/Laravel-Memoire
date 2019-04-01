@@ -13,7 +13,7 @@
 
 Route::get('/','PagesControllers@home');
 Route::get('/about','PagesControllers@about');
-Route::get('/contact','PagesControllers@contact');
+Route::resource('/contact','ContactController');
 Route::resource('/author','AuthorController');
 Route::resource('/memoire','MemoireController');
 Route::resource('/enseignant','EnseignantController');

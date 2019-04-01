@@ -10,13 +10,15 @@
 					{!! Form::open(['url'=>route('memoire.store')]) !!}
 						@csrf
 
-						 <div class="form-group row">
+						 <div class="form-group row {!! $errors->has('titre') ? 'has-error':'' !!}">
 							{!! Form::label('titre','Titre',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
 							{!! Form::text('nom',null,['class'=>'form-control col-sm-6']) !!}
+							{!! $errors->first('titre','<small class="help-block">:message</small>') !!}
 						</div>
-	                      <div class="form-group row">
+	                      <div class="form-group row {!! $errors->has('mots_cle') ? 'has-error' :'' !!}">
 							{!! Form::label('mots_cle','Mots_cle',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
 							{!! Form::text('mots_cle',null,['class'=>'form-control col-sm-6']) !!}
+							{!! $errors->first('mots_cle','<small class="help-block">:message</small>') !!}
 						</div>
 						 <div class="form-group row">
 							{!! Form::label('resume','Resume',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
