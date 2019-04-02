@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests\MemoireRequest;
+
 use App\Memoire;
+use App\Parcour;
+use App\Enseignant;
 
 class MemoireController extends Controller
 {
@@ -27,9 +30,10 @@ class MemoireController extends Controller
      */
     public function create()
     {
-        $memoires = Memoire::get();
-        $parcours = $memoires->parcour()->get();
-       return view('memoire.create', compact('parcours'));
+        //$memoires = Memoire::get();
+        $parcours = Parcour::orderBy('id')->pluck('cycle','id');
+        $enseignants = Enseignant::orderBy('nom','ASC')->pluck('nom','id');
+       return view('memoire.create', compact('parcours','enseignants'));
     }
 
     /**
@@ -40,7 +44,12 @@ class MemoireController extends Controller
      */
     public function store(MemoireRequest $request)
     {
-        //
+        $memoire = Memoire::create($request->all());
+        $memoire->parcour()->associate($request->get('parcours'));
+        $memoire->enseignants()->attach($request->get('enseignants'));
+
+        return redirect(route('memoire.index'));
+
     }
 
     /**
@@ -77,6 +86,8 @@ class MemoireController extends Controller
     {
        $memoire = Memoire::findOrFail($id);
        $memoire->update($request->all());
+       $memoire->parcour()->associate($request->get('parcours'));
+       $memoire->enseignants()->sync($request->get('enseignants'));
        return redirect(route('memoire.index'));
     }
 

@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Memoire extends Model
 {
-    protected $fillable = ['titre','mots_cle','resume','abstract'];
+    protected $fillable = ['titre','mots_cle','resume','abstract','parcour_id'];
     protected $guarded = ['id'];
 
     public function parcour(){

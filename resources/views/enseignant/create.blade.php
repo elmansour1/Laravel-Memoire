@@ -22,6 +22,7 @@
 						</div>  
 						<div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
+                            	<a class="btn btn-default col-form-label text-md-righ " href="{{route('enseignant.index')}}">Cancel !</a>
                                <button class="btn btn-primary col-form-label text-md-righ ">Envoyer !</button>
                             </div>
                         </div> 
