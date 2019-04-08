@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\MemoireRequest;
 
+use Illuminate\Support\Facades\Storage;
+
 use App\Memoire;
 use App\Parcour;
 use App\Enseignant;
@@ -45,6 +47,12 @@ class MemoireController extends Controller
     public function store(MemoireRequest $request)
     {
         $memoire = Memoire::create($request->all());
+
+        if($request->file('document')){
+            $path = Storage::disk('public')->put('document',$request->file('document'));
+            $memoire->fill(['document',asset($path)])->save();
+        }
+
         $memoire->parcour()->associate($request->get('parcours'));
         $memoire->enseignants()->attach($request->get('enseignants'));
 
@@ -88,7 +96,7 @@ class MemoireController extends Controller
        $memoire->update($request->all());
        $memoire->parcour()->associate($request->get('parcours'));
        $memoire->enseignants()->sync($request->get('enseignants'));
-       return redirect(route('memoire.index'));
+       return redirect(route('memoire.index',compact('enseignants','parcours')));
     }
 
     /**

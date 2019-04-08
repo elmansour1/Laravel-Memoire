@@ -19,6 +19,7 @@ class CreateMemoiresTable extends Migration
             $table->string('mots_cle');
             $table->string('resume');
             $table->string('abstract');
+            $table->string('document');
             $table->timestamps();
         });
 

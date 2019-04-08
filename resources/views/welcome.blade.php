@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css')}}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/myStyle.css')}}">
+        <script type="text/javascript" src="{{ asset('lib/bootstrap.min.js')}}"></script>
         <script type="text/javascript" src="{{ asset('lib/jquery.min.js')}}"></script>
 
         <!-- Styles -->
@@ -52,11 +53,11 @@
             <a class="nav-link" id="contact-tab" data-toggle="tab" href="/contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
           </li>
         </ul>
-<!-- <div class="tab-content" id="myTabContent">
+<div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
   <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">...</div>
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-</div> -->
+</div>
 
 
         <!-- <div class="container">
@@ -73,5 +74,7 @@
         <div class="container">
             @yield('content')
         </div>
+
+       
     </body>
 </html>
