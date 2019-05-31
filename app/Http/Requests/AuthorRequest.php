@@ -24,7 +24,6 @@ class AuthorRequest extends FormRequest
     public function rules()
     {
         return [
-            'nom' => 'required|max:20|alpha',
             'matricule' => 'required|max:7',
             'email' => 'required|email',
             'telephone' => 'required|max:9'

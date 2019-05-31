@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\SpecialisationRequest;
 use App\Specialisation;
+use App\Parcour;
+use App\Departement;
 
 class SpecialisationController extends Controller
 {
@@ -26,7 +28,9 @@ class SpecialisationController extends Controller
      */
     public function create()
     {
-        return view('specialisation.create');
+        $parcours = Parcour::orderBy('id')->pluck('cycle','id');
+        $departements = Departement::orderBy('id')->pluck('code','id');
+        return view('specialisation.create',compact('parcours','departements'));
     }
 
     /**

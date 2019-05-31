@@ -24,7 +24,7 @@ class EnseignantRequest extends FormRequest
     public function rules()
     {
         return [
-            'nom' => 'required|min:5|max:30|alpha',
+            //'nom' => 'required|min:5|max:30|alpha',
             'grade' => 'required|max:20'
         ];
     }

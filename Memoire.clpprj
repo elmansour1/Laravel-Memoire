@@ -13,227 +13,360 @@
  <lastopfiles>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/welcome.blade.php"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/PagesControllers.php"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/routes/web.php"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/AuthorController.php"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auteur/index.blade.php"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/pages/index.blade.php"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/welcome.blade.php"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/PagesControllers.php"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/routes/web.php"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/AuthorController.php"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auteur/index.blade.php"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/pages/index.blade.php"/>
   <lastactivefile name=""/>
  </lastopfiles>
  <todoblock>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/Cpdf.php">
+   <todo name="todo is it still needed" pos="14;5006"/>
+   <todo name="@todo is it still needed" pos="13;5006"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Adapter/CPDF.php">
+   <todo name="todo use cache for BMP and GIF" pos="18;857"/>
+   <todo name="@todo use cache for BMP and GIF" pos="17;857"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Adapter/GD.php">
+   <todo name="todo" pos="10;425"/>
+   <todo name="@todo" pos="9;425"/>
+   <todo name="todo" pos="10;510"/>
+   <todo name="@todo" pos="9;510"/>
+   <todo name="todo" pos="10;515"/>
+   <todo name="@todo" pos="9;515"/>
+   <todo name="todo" pos="10;523"/>
+   <todo name="@todo" pos="9;523"/>
+   <todo name="todo" pos="10;549"/>
+   <todo name="@todo" pos="9;549"/>
+   <todo name="todo" pos="10;560"/>
+   <todo name="@todo" pos="9;560"/>
+   <todo name="todo" pos="10;571"/>
+   <todo name="@todo" pos="9;571"/>
+   <todo name="todo" pos="10;580"/>
+   <todo name="@todo" pos="9;580"/>
+   <todo name="todo" pos="10;593"/>
+   <todo name="@todo" pos="9;593"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Adapter/PDFLib.php">
+   <todo name="TODO" pos="9;718"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Css/AttributeTranslator.php">
+   <todo name="TODO: translate more form element attributes" pos="9;91"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Css/Stylesheet.php">
+   <todo name="TODO: bit of a hack attempt at matches support, currently only matches against elements" pos="25;679"/>
+   <todo name="TODO" pos="29;704"/>
+   <todo name="TODO: If we use a context node can we remove the leading dot" pos="17;963"/>
+   <todo name="TODO: When the media query logic is fully developed we should not apply the Style when any of the me" pos="29;1120"/>
+   <todo name="Todo:Reason is unknown" pos="25;1340"/>
+   <todo name="Todo: As above, do we need to replace php or file to an empty protocol for local files" pos="13;1481"/>
+   <todo name="todo: fix the regex so that it works every time" pos="14;1562"/>
+   <todo name="@todo: fix the regex so that it works every time" pos="13;1562"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Dompdf.php">
+   <todo name="todo Take the quirksmode into account" pos="10;467"/>
+   <todo name="@todo Take the quirksmode into account" pos="9;467"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FontMetrics.php">
+   <todo name="todo Make sure this cache is efficient before enabling it" pos="10;263"/>
+   <todo name="@todo Make sure this cache is efficient before enabling it" pos="9;263"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php">
+   <todo name="TODO: What version is the best : this one or the one in ListBullet ?" pos="2;826"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/ListBullet.php">
+   <todo name="Todo: Guessed for now." pos="65;24"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/ListBulletImage.php">
+   <todo name="Todo: Where can the box size be extended" pos="9;67"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/Block.php">
+   <todo name="TODO: this is a WIP for handling clear/float frames that are in between inline frames" pos="13;682"/>
+   <todo name="TODO handle when floating elements don't fit" pos="17;749"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/Text.php">
+   <todo name="todo support &lt;shy>, &lt;wbr>" pos="10;119"/>
+   <todo name="@todo support &lt;shy>, &lt;wbr>" pos="9;119"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Helpers.php">
+   <todo name="TODO: use $context to define additional curl options" pos="13;847"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/Absolute.php">
+   <todo name="TODO change width" pos="25;77"/>
+   <todo name="TODO change height" pos="25;106"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/ListBullet.php">
+   <todo name="Todo:" pos="9;64"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/AbstractRenderer.php">
+   <todo name="TODO: Solve rendering where one corner is beveled (radius == 0), one corner isn't." pos="9;546"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/TableCell.php">
+   <todo name="todo Add support for outlines here" pos="10;52"/>
+   <todo name="@todo Add support for outlines here" pos="9;52"/>
+  </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/filp/whoops/src/Whoops/Exception/Frame.php">
-   <todo pos="10;54" name="todo: This can be made more reliable by checking if we've entered"/>
-   <todo pos="9;54" name="@todo: This can be made more reliable by checking if we've entered"/>
+   <todo name="todo: This can be made more reliable by checking if we've entered" pos="10;54"/>
+   <todo name="@todo: This can be made more reliable by checking if we've entered" pos="9;54"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php">
-   <todo pos="14;153" name="todo: Make this more robust"/>
-   <todo pos="13;153" name="@todo: Make this more robust"/>
-   <todo pos="14;187" name="todo: Asset compiler"/>
-   <todo pos="13;187" name="@todo: Asset compiler"/>
-   <todo pos="10;239" name="todo: Consolidate addDataTable and addDataTableCallback"/>
-   <todo pos="9;239" name="@todo: Consolidate addDataTable and addDataTableCallback"/>
+   <todo name="todo: Make this more robust" pos="14;153"/>
+   <todo name="@todo: Make this more robust" pos="13;153"/>
+   <todo name="todo: Asset compiler" pos="14;187"/>
+   <todo name="@todo: Asset compiler" pos="13;187"/>
+   <todo name="todo: Consolidate addDataTable and addDataTableCallback" pos="10;239"/>
+   <todo name="@todo: Consolidate addDataTable and addDataTableCallback" pos="9;239"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/filp/whoops/src/Whoops/Run.php">
-   <todo pos="14;293" name="todo Might be able to clean this up a bit better"/>
-   <todo pos="13;293" name="@todo Might be able to clean this up a bit better"/>
+   <todo name="todo Might be able to clean this up a bit better" pos="14;293"/>
+   <todo name="@todo Might be able to clean this up a bit better" pos="13;293"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/fzaninotto/faker/src/Faker/ORM/CakePHP/EntityPopulator.php">
-   <todo pos="9;117" name="TODO check if TreeBehavior attached to modify lft/rgt cols"/>
+   <todo name="TODO check if TreeBehavior attached to modify lft/rgt cols" pos="9;117"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/fzaninotto/faker/src/Faker/Provider/Base.php">
-   <todo pos="9;547" name="TODO: remove in v2"/>
+   <todo name="TODO: remove in v2" pos="9;547"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/fzaninotto/faker/src/Faker/Provider/kk_KZ/Address.php">
-   <todo pos="5;15" name="TODO list all country names in the world"/>
+   <todo name="TODO list all country names in the world" pos="5;15"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php">
-   <todo pos="1;10" name="TODO: Allow this to take matchers or values within the array"/>
+   <todo name="TODO: Allow this to take matchers or values within the array" pos="1;10"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php">
-   <todo pos="9;180" name="TODO 2.0 only check for Throwable"/>
+   <todo name="TODO 2.0 only check for Throwable" pos="9;180"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php">
-   <todo pos="9;131" name="TODO 2.0 only check for Throwable"/>
+   <todo name="TODO 2.0 only check for Throwable" pos="9;131"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php">
-   <todo pos="13;41" name="TODO 2.0 unset the 'datetime' parameter, retained for BC"/>
+   <todo name="TODO 2.0 unset the 'datetime' parameter, retained for BC" pos="13;41"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php">
-   <todo pos="13;98" name="TODO 2.0 only check for Throwable"/>
-   <todo pos="9;123" name="TODO 2.0 only check for Throwable"/>
+   <todo name="TODO 2.0 only check for Throwable" pos="13;98"/>
+   <todo name="TODO 2.0 only check for Throwable" pos="9;123"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php">
-   <todo pos="13;117" name="TODO 2.0 remove substr call"/>
+   <todo name="TODO 2.0 remove substr call" pos="13;117"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/Carbon.php">
-   <todo pos="5;18" name="todoc generated by `composer phpdoc`>"/>
-   <todo pos="6;488" name="todoc>"/>
+   <todo name="todoc generated by `composer phpdoc`>" pos="5;18"/>
+   <todo name="todoc>" pos="6;488"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/CarbonImmutable.php">
-   <todo pos="5;18" name="todoc generated by `composer phpdoc`>"/>
-   <todo pos="6;488" name="todoc>"/>
+   <todo name="todoc generated by `composer phpdoc`>" pos="5;18"/>
+   <todo name="todoc>" pos="6;488"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/CarbonInterface.php">
-   <todo pos="5;23" name="todoc generated by `composer phpdoc`>"/>
-   <todo pos="6;493" name="todoc>"/>
+   <todo name="todoc generated by `composer phpdoc`>" pos="5;23"/>
+   <todo name="todoc>" pos="6;493"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/Factory.php">
-   <todo pos="5;15" name="todoc generated by `composer phpdoc`>"/>
-   <todo pos="6;205" name="todoc>"/>
+   <todo name="todoc generated by `composer phpdoc`>" pos="5;15"/>
+   <todo name="todoc>" pos="6;205"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/FactoryImmutable.php">
-   <todo pos="5;15" name="todoc generated by `composer phpdoc`>"/>
-   <todo pos="6;205" name="todoc>"/>
+   <todo name="todoc generated by `composer phpdoc`>" pos="5;15"/>
+   <todo name="todoc>" pos="6;205"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/Lang/ar_Shakl.php">
-   <todo pos="6;18" name="TODO add shakl to months"/>
-   <todo pos="5;18" name="@TODO add shakl to months"/>
-   <todo pos="6;46" name="TODO add shakl to translations below"/>
-   <todo pos="5;46" name="@TODO add shakl to translations below"/>
+   <todo name="TODO add shakl to months" pos="6;18"/>
+   <todo name="@TODO add shakl to months" pos="5;18"/>
+   <todo name="TODO add shakl to translations below" pos="6;46"/>
+   <todo name="@TODO add shakl to translations below" pos="5;46"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/Lang/mk.php">
-   <todo pos="11;13" name="Todorov"/>
+   <todo name="Todorov" pos="11;13"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/Traits/Date.php">
-   <todo pos="5;24" name="todoc generated by `composer phpdoc`>"/>
-   <todo pos="6;494" name="todoc>"/>
+   <todo name="todoc generated by `composer phpdoc`>" pos="5;24"/>
+   <todo name="todoc>" pos="6;494"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nikic/php-parser/lib/PhpParser/Internal/TokenStream.php">
-   <todo pos="21;214" name="TODO Handle non-space indentation"/>
+   <todo name="TODO Handle non-space indentation" pos="21;214"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php">
-   <todo pos="13;494" name="TODO Add &lt;"/>
-   <todo pos="17;721" name="TODO: Try to preserve formatting"/>
-   <todo pos="21;845" name="TODO Handle removal at the start"/>
-   <todo pos="13;875" name="TODO Handle insertion into empty list"/>
-   <todo pos="9;1229" name="TODO: &quot;yield&quot; where both key and value are inserted doesn't work"/>
-   <todo pos="86;1252" name="TODO"/>
-   <todo pos="47;1268" name="TODO These need to be treated more carefully"/>
-   <todo pos="67;1340" name="TODO"/>
+   <todo name="TODO Add &lt;" pos="13;494"/>
+   <todo name="TODO: Try to preserve formatting" pos="17;721"/>
+   <todo name="TODO Handle removal at the start" pos="21;845"/>
+   <todo name="TODO Handle insertion into empty list" pos="13;875"/>
+   <todo name="TODO: &quot;yield&quot; where both key and value are inserted doesn't work" pos="9;1229"/>
+   <todo name="TODO" pos="86;1252"/>
+   <todo name="TODO These need to be treated more carefully" pos="47;1268"/>
+   <todo name="TODO" pos="67;1340"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/EOT/File.php">
+   <todo name="TODO Read font data ..." pos="5;60"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/cmap.php">
+   <todo name="todo Only CMAP version 4 and 12" pos="8;62"/>
+   <todo name="@todo Only CMAP version 4 and 12" pos="7;62"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/post.php">
+   <todo name="TODO" pos="9;66"/>
+   <todo name="TODO" pos="9;74"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/TrueType/File.php">
+   <todo name="todo" pos="24;226"/>
+   <todo name="@todo" pos="23;226"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Style.php">
+   <todo name="TODO cm, mm, pc, in, etc" pos="9;394"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/CPdf.php">
+   <todo name="todo is it still needed" pos="14;4204"/>
+   <todo name="@todo is it still needed" pos="13;4204"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfaceCpdf.php">
+   <todo name="TODO: Implement beginPath() method." pos="9;115"/>
+   <todo name="todo use cache for BMP and GIF" pos="18;219"/>
+   <todo name="@todo use cache for BMP and GIF" pos="17;219"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfaceGmagick.php">
+   <todo name="TODO: Implement beginPath() method." pos="9;96"/>
+   <todo name="TODO: Implement drawImage() method." pos="9;127"/>
+   <todo name="TODO: Implement quadraticCurveTo() method." pos="9;165"/>
+   <todo name="TODO: Implement setFont() method." pos="9;305"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfacePDFLib.php">
+   <todo name="TODO: Implement beginPath() method." pos="9;113"/>
+   <todo name="TODO: Implement drawImage() method." pos="9;144"/>
+   <todo name="TODO: Implement setFont() method." pos="9;419"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Path.php">
+   <todo name="TODO: optimize this" pos="21;341"/>
+   <todo name="TODO: optimize this" pos="21;361"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phpdocumentor/reflection-docblock/src/DocBlock/StandardTagFactory.php">
-   <todo pos="13;217" name="TODO: Annotation support is planned for a later stage and as such is disabled for now"/>
+   <todo name="TODO: Annotation support is planned for a later stage and as such is disabled for now" pos="13;217"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phpunit/phpunit/src/Util/Configuration.php">
-   <todo pos="24;60" name="TodoAnnotatedTests=&quot;false&quot;"/>
+   <todo name="TodoAnnotatedTests=&quot;false&quot;" pos="24;60"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phpunit/phpunit/tests/unit/Util/TestTest.php">
-   <todo pos="9;768" name="TODO Remove fixture from test class"/>
+   <todo name="TODO Remove fixture from test class" pos="9;768"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php">
-   <todo pos="14;50" name="todo switch this to actually validate args when we get context-aware code cleaner passes."/>
-   <todo pos="13;50" name="@todo switch this to actually validate args when we get context-aware code cleaner passes."/>
+   <todo name="todo switch this to actually validate args when we get context-aware code cleaner passes." pos="14;50"/>
+   <todo name="@todo switch this to actually validate args when we get context-aware code cleaner passes." pos="13;50"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php">
-   <todo pos="10;37" name="todo support MethodCall and StaticCall as well."/>
-   <todo pos="9;37" name="@todo support MethodCall and StaticCall as well."/>
+   <todo name="todo support MethodCall and StaticCall as well." pos="10;37"/>
+   <todo name="@todo support MethodCall and StaticCall as well." pos="9;37"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/CodeCleaner/RequirePass.php">
-   <todo pos="14;78" name="todo Shell::handleError would be better here, because we could"/>
-   <todo pos="13;78" name="@todo Shell::handleError would be better here, because we could"/>
-   <todo pos="14;84" name="todo trigger an error as fallback"/>
-   <todo pos="13;84" name="@todo trigger an error as fallback"/>
+   <todo name="todo Shell::handleError would be better here, because we could" pos="14;78"/>
+   <todo name="@todo Shell::handleError would be better here, because we could" pos="13;78"/>
+   <todo name="todo trigger an error as fallback" pos="14;84"/>
+   <todo name="@todo trigger an error as fallback" pos="13;84"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php">
-   <todo pos="14;64" name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
-   <todo pos="13;64" name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
+   <todo name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell" pos="14;64"/>
+   <todo name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell" pos="13;64"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php">
-   <todo pos="14;48" name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
-   <todo pos="13;48" name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell"/>
+   <todo name="todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell" pos="14;48"/>
+   <todo name="@todo add an &quot;else&quot; here which adds a runtime check for instances where we can't tell" pos="13;48"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Command/DocCommand.php">
-   <todo pos="18;105" name="todo this is going to collide with ReflectionMethod ids"/>
-   <todo pos="17;105" name="@todo this is going to collide with ReflectionMethod ids"/>
+   <todo name="todo this is going to collide with ReflectionMethod ids" pos="18;105"/>
+   <todo name="@todo this is going to collide with ReflectionMethod ids" pos="17;105"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Command/ListCommand.php">
-   <todo pos="10;127" name="todo something cleaner than this :-/"/>
-   <todo pos="9;127" name="@todo something cleaner than this :-/"/>
+   <todo name="todo something cleaner than this :-/" pos="10;127"/>
+   <todo name="@todo something cleaner than this :-/" pos="9;127"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Command/ListCommand/ClassConstantEnumerator.php">
-   <todo pos="14;34" name="todo handle ReflectionExtension as well"/>
-   <todo pos="13;34" name="@todo handle ReflectionExtension as well"/>
+   <todo name="todo handle ReflectionExtension as well" pos="14;34"/>
+   <todo name="@todo handle ReflectionExtension as well" pos="13;34"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Command/ListCommand/ClassEnumerator.php">
-   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
-   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;27"/>
+   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;27"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Command/ListCommand/ConstantEnumerator.php">
-   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
-   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;27"/>
+   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;27"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Command/ListCommand/FunctionEnumerator.php">
-   <todo pos="10;27" name="todo make a NamespaceReflector and pass that in for commands like:"/>
-   <todo pos="9;27" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;27"/>
+   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;27"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Command/ListCommand/InterfaceEnumerator.php">
-   <todo pos="10;36" name="todo make a NamespaceReflector and pass that in for commands like:"/>
-   <todo pos="9;36" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;36"/>
+   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;36"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Command/ListCommand/TraitEnumerator.php">
-   <todo pos="10;36" name="todo make a NamespaceReflector and pass that in for commands like:"/>
-   <todo pos="9;36" name="@todo make a NamespaceReflector and pass that in for commands like:"/>
+   <todo name="todo make a NamespaceReflector and pass that in for commands like:" pos="10;36"/>
+   <todo name="@todo make a NamespaceReflector and pass that in for commands like:" pos="9;36"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/Configuration.php">
-   <todo pos="10;606" name="todo mebbe turn this on by default some day"/>
-   <todo pos="9;606" name="@todo mebbe turn this on by default some day"/>
-   <todo pos="10;696" name="todo detect `chsh` != 65001 on Windows and return false"/>
-   <todo pos="9;696" name="@todo detect `chsh` != 65001 on Windows and return false"/>
+   <todo name="todo mebbe turn this on by default some day" pos="10;606"/>
+   <todo name="@todo mebbe turn this on by default some day" pos="9;606"/>
+   <todo name="todo detect `chsh` != 65001 on Windows and return false" pos="10;696"/>
+   <todo name="@todo detect `chsh` != 65001 on Windows and return false" pos="9;696"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/ExecutionLoop/ProcessForker.php">
-   <todo pos="18;212" name="todo remove this once we don't support PHP 5.x anymore :)"/>
-   <todo pos="17;212" name="@todo remove this once we don't support PHP 5.x anymore :)"/>
+   <todo name="todo remove this once we don't support PHP 5.x anymore :)" pos="18;212"/>
+   <todo name="@todo remove this once we don't support PHP 5.x anymore :)" pos="17;212"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/src/functions.php">
-   <todo pos="10;86" name="todo come up with a better way of doing this which doesn't involve injecting input :-P"/>
-   <todo pos="9;86" name="@todo come up with a better way of doing this which doesn't involve injecting input :-P"/>
-   <todo pos="10;257" name="todo Show Presenter / custom casters."/>
-   <todo pos="9;257" name="@todo Show Presenter / custom casters."/>
-   <todo pos="18;349" name="todo this triggers the &quot;exited unexpectedly&quot; logic in the"/>
-   <todo pos="17;349" name="@todo this triggers the &quot;exited unexpectedly&quot; logic in the"/>
+   <todo name="todo come up with a better way of doing this which doesn't involve injecting input :-P" pos="10;86"/>
+   <todo name="@todo come up with a better way of doing this which doesn't involve injecting input :-P" pos="9;86"/>
+   <todo name="todo Show Presenter / custom casters." pos="10;257"/>
+   <todo name="@todo Show Presenter / custom casters." pos="9;257"/>
+   <todo name="todo this triggers the &quot;exited unexpectedly&quot; logic in the" pos="18;349"/>
+   <todo name="@todo this triggers the &quot;exited unexpectedly&quot; logic in the" pos="17;349"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/psy/psysh/test/Formatter/SignatureFormatterTest.php">
-   <todo pos="46;81" name="todo show this as `unknown` in red or something"/>
-   <todo pos="45;81" name="@todo show this as `unknown` in red or something"/>
+   <todo name="todo show this as `unknown` in red or something" pos="46;81"/>
+   <todo name="@todo show this as `unknown` in red or something" pos="45;81"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/Selector.php">
+   <todo name="todo should exclude \# as well as &quot;#&quot;" pos="7;63"/>
+   <todo name="@todo should exclude \# as well as &quot;#&quot;" pos="6;63"/>
+  </todofile>
+  <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/ParserTest.php">
+   <todo name="TODO Support comments in selectors." pos="3;537"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php">
-   <todo pos="36;126" name="TODO: Check caching here"/>
-   <todo pos="13;186" name="TODO: text, or something else"/>
+   <todo name="TODO: Check caching here" pos="36;126"/>
+   <todo name="TODO: text, or something else" pos="13;186"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php">
-   <todo pos="9;299" name="TODO: Try to refactor this logic"/>
+   <todo name="TODO: Try to refactor this logic" pos="9;299"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php">
-   <todo pos="5;217" name="TODO fix return"/>
-   <todo pos="25;601" name="todo handle it but should never happen"/>
+   <todo name="TODO fix return" pos="5;217"/>
+   <todo name="todo handle it but should never happen" pos="25;601"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php">
-   <todo pos="10;92" name="TODO make tls arguments configurable"/>
-   <todo pos="9;92" name="@TODO make tls arguments configurable"/>
+   <todo name="TODO make tls arguments configurable" pos="10;92"/>
+   <todo name="@TODO make tls arguments configurable" pos="9;92"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Mime/SimpleMessageAcceptanceTest.php">
-   <todo pos="61;6" name="TODO: Test with the charset defined"/>
+   <todo name="TODO: Test with the charset defined" pos="61;6"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php">
-   <todo pos="9;96" name="todo: handle an+b, odd, even"/>
+   <todo name="todo: handle an+b, odd, even" pos="9;96"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php">
-   <todo pos="9;111" name="todo: in the second half, add &quot;and is not a descendant of that fieldset element's first legend elem"/>
+   <todo name="todo: in the second half, add &quot;and is not a descendant of that fieldset element's first legend elem" pos="9;111"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php">
-   <todo pos="13;38" name="TODO deprecate this in 5.1"/>
+   <todo name="TODO deprecate this in 5.1" pos="13;38"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/symfony/http-kernel/HttpCache/Store.php">
-   <todo pos="9;156" name="TODO the metaStore referenced an entity that doesn't exist in"/>
+   <todo name="TODO the metaStore referenced an entity that doesn't exist in" pos="9;156"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/symfony/translation/Loader/PoFileLoader.php">
-   <todo pos="17;89" name="TODO: this fails when comments or contexts are added"/>
+   <todo name="TODO: this fails when comments or contexts are added" pos="17;89"/>
   </todofile>
   <todofile name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/symfony/translation/Tests/PluralizationRulesTest.php">
-   <todo pos="2;36" name="TODO: The languages mentioned in the data provide need to get fixed somehow within Pluralizat"/>
+   <todo name="TODO: The languages mentioned in the data provide need to get fixed somehow within Pluralizat" pos="2;36"/>
   </todofile>
  </todoblock>
  <dbgurls/>
@@ -2134,6 +2267,79 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sebastian/code-unit-reverse-lookup/src/Wizard.php" crc="1488609041000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sebastian/code-unit-reverse-lookup/phpunit.xml" crc="1488609041000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sebastian/code-unit-reverse-lookup/build.xml" crc="1488609041000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/RuleSet/LenientParsingTest.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/RuleSet/DeclarationBlockTest.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/CSSList/DocumentTest.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/CSSList/AtRuleBlockListTest.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/ParserTest.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/OutputFormatTest.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/whitespace.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/webkit.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/values.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/url.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/unicode.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/specificity.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/slashed.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/nested.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/namespaces.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/line-numbers.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/inner-color.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/important.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/ie.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/ie-hacks.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/functions.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/expand-shorthands.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/docuwiki.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/create-shorthands.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/comments.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/colortest.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/case-insensitivity.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/atrules.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/2readme.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/1readme.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/-tobedone.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/-fault-tolerance.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/-end-token.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/-end-token-2.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/-empty.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/-charset-in-block.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/files/-charset-after-rule.css" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/quickdump.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/phpunit.xml" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/tests/bootstrap.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Value.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/URL.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Size.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/RuleValueList.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/PrimitiveValue.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSString.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSFunction.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Color.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/RuleSet.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/DeclarationBlock.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/AtRuleSet.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Rule/Rule.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/Selector.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/Import.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/CSSNamespace.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/Charset.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/AtRule.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/SourceException.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/OutputException.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/KeyFrame.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/Document.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSList.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSBlockList.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Comment/Commentable.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Comment/Comment.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Settings.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Renderable.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parser.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php" crc="1468955661000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/sabberworm/php-css-parser/phpunit.xml" crc="1468955661000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/ramsey/uuid/src/Provider/Time/SystemTimeProvider.php" crc="1532043535000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/ramsey/uuid/src/Provider/Time/FixedTimeProvider.php" crc="1532043535000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/ramsey/uuid/src/Provider/Node/SystemNodeProvider.php" crc="1532043535000"/>
@@ -3327,6 +3533,75 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phpdocumentor/reflection-common/src/Fqsen.php" crc="1505152939000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phpdocumentor/reflection-common/src/File.php" crc="1505152939000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phpdocumentor/reflection-common/src/Element.php" crc="1505152939000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/tests/Svg/StyleTest.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/UseTag.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Text.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/StyleTag.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Stop.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Shape.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Rect.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/RadialGradient.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Polyline.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Polygon.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Path.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/LinearGradient.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Line.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Image.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Group.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Ellipse.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/ClipPath.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Circle.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/Anchor.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Tag/AbstractTag.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfacePDFLib.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfaceInterface.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfaceGmagick.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfaceCpdf.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Surface/CPdf.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Gradient/Stop.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Style.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/Document.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/Svg/DefaultStyle.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/src/autoload.php" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-svg-lib/phpunit.xml" crc="1528020603000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/tests/FontLib/FontTest.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/WOFF/TableDirectoryEntry.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/WOFF/Header.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/WOFF/File.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/TrueType/TableDirectoryEntry.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/TrueType/Header.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/TrueType/File.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/TrueType/Collection.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/post.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/os2.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/nameRecord.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/name.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/maxp.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/loca.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/kern.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/hmtx.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/hhea.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/head.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Type/cmap.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/Table.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Table/DirectoryEntry.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/OpenType/TableDirectoryEntry.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/OpenType/File.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Glyph/OutlineSimple.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Glyph/OutlineComposite.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Glyph/OutlineComponent.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Glyph/Outline.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Exception/FontNotFoundException.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/EOT/Header.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/EOT/File.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Header.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Font.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/EncodingMap.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/Autoloader.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/src/FontLib/AdobeFontMetrics.php" crc="1505319277000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phenx/php-font-lib/index.php" crc="1505319277000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phar-io/version/tests/Unit/VersionTest.php" crc="1531077597000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phar-io/version/tests/Unit/SpecificMajorVersionConstraintTest.php" crc="1531077597000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/phar-io/version/tests/Unit/SpecificMajorAndMinorVersionConstraintTest.php" crc="1531077597000"/>
@@ -4607,6 +4882,9 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/CarbonImmutable.php" crc="1553084401000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/src/Carbon/Carbon.php" crc="1553084401000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nesbot/carbon/phpmd.xml" crc="1553084401000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nahidulhasan/html2pdf/src/Facades/Pdf.php" crc="1553256018000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nahidulhasan/html2pdf/src/Pdf.php" crc="1553256018000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/nahidulhasan/html2pdf/src/Html2pdfServiceProvider.php" crc="1553256018000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php" crc="1528758590000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedListFilter.php" crc="1528758590000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedList.php" crc="1528758590000"/>
@@ -6746,6 +7024,87 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php" crc="1528254737000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dragonmantank/cron-expression/src/Cron/CronExpression.php" crc="1528254737000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dragonmantank/cron-expression/src/Cron/AbstractField.php" crc="1528254737000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/Text.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/TableRowGroup.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/TableCell.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/ListBullet.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/Inline.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/Image.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/Block.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer/AbstractRenderer.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/TableRow.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/TableCell.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/NullPositioner.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/ListBullet.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/Inline.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/Fixed.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/Block.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/AbstractPositioner.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Positioner/Absolute.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Image/Cache.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/Text.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/TableRowGroup.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/TableRow.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/Table.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/Page.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/NullFrameReflower.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/ListBullet.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/Inline.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/Image.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/Block.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/Text.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/TableRowGroup.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/TableRow.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/TableCell.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/Table.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/Page.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/NullFrameDecorator.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/ListBulletImage.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/ListBullet.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/Inline.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/Image.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/Block.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Frame/FrameTreeList.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Frame/FrameTreeIterator.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Frame/FrameTree.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Frame/FrameListIterator.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Frame/FrameList.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Frame/Factory.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Exception/ImageException.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Css/Stylesheet.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Css/Style.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Css/Color.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Css/AttributeTranslator.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Adapter/PDFLib.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Adapter/GD.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Adapter/CPDF.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Renderer.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/PhpEvaluator.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Options.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/LineBox.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/JavascriptEmbedder.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Helpers.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Frame.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/FontMetrics.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Exception.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Dompdf.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Cellmap.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/CanvasFactory.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Canvas.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/src/Autoloader.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/res/html.css" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/html5lib/TreeBuilder.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/html5lib/Tokenizer.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/html5lib/Parser.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/html5lib/InputStream.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/html5lib/Data.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/fonts/mustRead.html" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/fonts/dompdf_font_family_cache.dist.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/lib/Cpdf.php" crc="1544755231000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dompdf/dompdf/phpcs.xml" crc="1544755231000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/doctrine/lexer/lib/Doctrine/Common/Lexer/AbstractLexer.php" crc="1410269697000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php" crc="1552844231000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php" crc="1552844231000"/>
@@ -6755,39 +7114,107 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php" crc="1515528319000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dnoegel/php-xdg-base-dir/tests/XdgTest.php" crc="1414135621000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/dnoegel/php-xdg-base-dir/src/Xdg.php" crc="1414135621000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/ClassLoader.php" crc="1553810898121"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_static.php" crc="1553810898121"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_real.php" crc="1553810898121"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_psr4.php" crc="1553810898109"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_namespaces.php" crc="1553810898109"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_files.php" crc="1553810898109"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_classmap.php" crc="1553810898109"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/ClassLoader.php" crc="1558734316627"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_static.php" crc="1558734316619"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_real.php" crc="1558734316619"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_psr4.php" crc="1558734316603"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_namespaces.php" crc="1558734316603"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_files.php" crc="1558734316603"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/composer/autoload_classmap.php" crc="1558734316603"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/beyondcode/laravel-dump-server/src/RequestContextProvider.php" crc="1538637744000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php" crc="1538637744000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/beyondcode/laravel-dump-server/src/DumpServerCommand.php" crc="1538637744000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/beyondcode/laravel-dump-server/src/Dumper.php" crc="1538637744000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/beyondcode/laravel-dump-server/config/config.php" crc="1538637744000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/beyondcode/laravel-dump-server/helpers.php" crc="1538637744000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/autoload.php" crc="1553810898121"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/barryvdh/laravel-dompdf/src/ServiceProvider.php" crc="1551204463000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/barryvdh/laravel-dompdf/src/PDF.php" crc="1551204463000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/barryvdh/laravel-dompdf/src/Facade.php" crc="1551204463000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/barryvdh/laravel-dompdf/config/dompdf.php" crc="1551204463000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/vendor/autoload.php" crc="1558734316619"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/tests/Unit/ExampleTest.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/tests/Feature/ExampleTest.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/tests/TestCase.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/tests/CreatesApplication.php" crc="1551385902000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/d6f82178f650de397115ab8f4372e5a78489d872.php" crc="1553632335312"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/b0e9161865370987549f4260604a3de888b70238.php" crc="1553873437138"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/f1974dc4007650c29ff22d2d21eae7a06356b001.php" crc="1554191853090"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/ecdefbdc28f4432a54c76c758a852007228904f4.php" crc="1554058187166"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/ec0383edacb86dff2b9e75e05c67ab20ce4f71f2.php" crc="1554192105441"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/e9be322b898defca6a90bd72ea31f114ce17a761.php" crc="1554109030268"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/d82808e458bb859c43f404005ac3f73ca703543d.php" crc="1555440421491"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/d6f82178f650de397115ab8f4372e5a78489d872.php" crc="1554156511464"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/b91238556e443e82c99c4f06972061f0ca61de25.php" crc="1554192053860"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/b36e47935e1cfed39422852794c55bede7c26de1.php" crc="1554064727282"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/b1b218c43f91c27868eaf568541c9e2ec464bb36.php" crc="1558726752415"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/b0e9161865370987549f4260604a3de888b70238.php" crc="1554785794253"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/aab039a24974657d1866cee794bff8b045eacbc1.php" crc="1554192056312"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/aa9c8e02d822a2c54883e0afe4abbf2b047cb1c7.php" crc="1554064287374"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/a641c711d30a9ce8652497782a04b68e92641555.php" crc="1554750276650"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/981834f59508078bae253f109807b4104537167f.php" crc="1554191940319"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/979a89aada578f86e303f0afda5bb19d551af89d.php" crc="1554058187166"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/975b3281854727b1fe5ef4d8860d5ea5f3d9484c.php" crc="1554159137219"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/92b402d438cca2a90c69ce9084df8431f2afa302.php" crc="1553631599940"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/8a3808dac9c2b716e54d2ed719d554761eceeb08.php" crc="1554191721968"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/888c395e776b927e94f914ea82db7f92bd8ce1fa.php" crc="1558775316802"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/846e676921b17b4406899dbd053a8c230a6fc77a.php" crc="1558727466891"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/80705bb7d149ae14345189b8de03b4bd9a191a05.php" crc="1553632426364"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/6f1861b5a06a114e4d05dc819552c9baca7d4fdc.php" crc="1553636256660"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/7dbe176e14a8caec3a367f0a827686a6b7dc3694.php" crc="1554750471431"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/6f1861b5a06a114e4d05dc819552c9baca7d4fdc.php" crc="1555440075287"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/6ec0648f3d65342d80c7eb6a9db51f94d302d3eb.php" crc="1554058197502"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/4d6087f2f6a55cc905a58f51b91c4fb837e5ec24.php" crc="1554192062448"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/4b591ea0c2ed62e08c3569f99f1833a2a4c8a710.php" crc="1554192535858"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/40714e9aab26521b4f5a7fadafa2ec0db58c9a4d.php" crc="1553631599940"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/routes/web.php" crc="1553873781058"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/3ff05e73f615db887ef923410c19f45185fc718d.php" crc="1554750467567"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/37578162e7ee64edbc2cdebd1990f0519b180553.php" crc="1554191903650"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/34788e625e7813c716900b9fbbe683bb1b4b97ac.php" crc="1554058203354"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/220d3cd6268e6f150b431772c66f512dde685d19.php" crc="1554750469811"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/1d4f2672bc5255e910ed29d20d0211e6735817da.php" crc="1554738789238"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/144d831e3292c4988e8e6d197ae4143d4f3ce836.php" crc="1554159974301"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/119961b52b84a823d08edecd1eca6891ac698672.php" crc="1554191849478"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/0ba430907d62f16bea50795f681afd29608d7513.php" crc="1554191942807"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/06405a5a2a1d8204fb11ec87c2116bc75ba571b1.php" crc="1554232757681"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/05420cf548f98606b8e89f130410d090366f2e96.php" crc="1558728868531"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/storage/framework/views/02601d2bd7c8eb31ccf23594ab0f612de1505c3d.php" crc="1554191754145"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/routes/web.php" crc="1558730713027"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/routes/console.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/routes/channels.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/routes/api.php" crc="1551385902000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/specialisation/index.blade.php" crc="1554064598562"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/specialisation/edit.blade.php" crc="1554192047592"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/specialisation/create.blade.php" crc="1558727440167"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/parcour/index.blade.php" crc="1554064285162"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/parcour/edit.blade.php" crc="1554192019144"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/parcour/create.blade.php" crc="1554192008192"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/pages/index.blade.php" crc="1555440418678"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/pages/home.blade.php" crc="1553632403960"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/pages/contact.blade.php" crc="1553632329752"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/pages/about.blade.php" crc="1553636255572"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auteur/index.blade.php" crc="1553873935254"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/welcome.blade.php" crc="1553873433142"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/pages/contact.blade.php" crc="1554157268373"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/memoire/show.blade.php" crc="1554058369982"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/memoire/index.blade.php" crc="1554750275030"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/memoire/edit.blade.php" crc="1554232752973"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/memoire/create.blade.php" crc="1554738737750"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/layouts/app.blade.php" crc="1554058128758"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/fichier/pdf_file.blade.php" crc="1558728864759"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/enseignant/index.blade.php" crc="1558726441459"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/enseignant/edit.blade.php" crc="1554191932963"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/enseignant/create.blade.php" crc="1554191921459"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/diplome/index.blade.php" crc="1554750422527"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/diplome/edit.blade.php" crc="1554191892290"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/diplome/create.blade.php" crc="1558726709251"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/departement/index.blade.php" crc="1554750408015"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/departement/edit.blade.php" crc="1554191813753"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/departement/create.blade.php" crc="1554191805317"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/contact/show.blade.php" crc="1554159133699"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/contact/index.blade.php" crc="1554159966477"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/contact/create.blade.php" crc="1554192093785"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auth/passwords/reset.blade.php" crc="1554058128758"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auth/passwords/email.blade.php" crc="1554058128758"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auth/verify.blade.php" crc="1554058128758"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auth/register.blade.php" crc="1554058128758"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auth/login.blade.php" crc="1554058128742"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auteur/index.blade.php" crc="1558775379606"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auteur/edit.blade.php" crc="1554191749061"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/auteur/create.blade.php" crc="1554191716444"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/welcome.blade.php" crc="1554785793005"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/views/home.blade.php" crc="1554058128782"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/sass/app.scss" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/sass/_variables.scss" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/resources/lang/en/validation.php" crc="1551385902000"/>
@@ -6826,7 +7253,7 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/lib/angular-animate.min.js" crc="1497103630235"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/lib/angular-animate.js" crc="1497103630235"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/js/app.js" crc="1551385902000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/css/myStyle.css" crc="1553854071826"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/css/myStyle.css" crc="1554785843813"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/css/bootstrap.min.css" crc="1497103630211"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/css/bootstrap.css" crc="1497103630203"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/css/bootstrap-theme.min.css" crc="1497103630203"/>
@@ -6838,12 +7265,15 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/robots.txt" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/public/index.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/seeds/DatabaseSeeder.php" crc="1551385902000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_04_08_181716_create_role_user_table.php" crc="1554748680297"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_04_08_181354_create_roles_table.php" crc="1554747274319"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_04_01_230935_create_contacts_table.php" crc="1554160195011"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_28_220814_create_author_memoire_table.php" crc="1553811693685"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_28_220301_create_enseignant_memoire_table.php" crc="1553811591698"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_28_204210_create_authors_table.php" crc="1553811012425"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_27_180658_create_enseignants_table.php" crc="1553810655362"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_27_165610_create_parcours_table.php" crc="1553849354789"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_27_165410_create_memoires_table.php" crc="1553807668195"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_27_165410_create_memoires_table.php" crc="1554326325631"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_27_164603_create_departements_table.php" crc="1553705288450"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_27_163415_create_specialisations_table.php" crc="1553704943382"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/database/migrations/2019_03_27_163222_create_diplomes_table.php" crc="1553704371610"/>
@@ -6862,15 +7292,25 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/config/cache.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/config/broadcasting.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/config/auth.php" crc="1551385902000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/config/app.php" crc="1551385902000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/bootstrap/cache/services.php" crc="1553810898517"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/bootstrap/cache/packages.php" crc="1553810898565"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/config/app.php" crc="1558729236543"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/bootstrap/cache/services.php" crc="1558734317011"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/bootstrap/cache/packages.php" crc="1558734317211"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/bootstrap/app.php" crc="1551385902000"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Providers/ValidatorServiceProvider.php" crc="1555053434714"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Providers/RouteServiceProvider.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Providers/EventServiceProvider.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Providers/BroadcastServiceProvider.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Providers/AuthServiceProvider.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Providers/AppServiceProvider.php" crc="1553633974108"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/SpecialisationRequest.php" crc="1554111601834"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/ParcourRequest.php" crc="1554152472313"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/MemoireRequest.php" crc="1554152961807"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/EnseignantRequest.php" crc="1554749256313"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/DiplomeRequest.php" crc="1554110857870"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/DepartementRequest.php" crc="1554110268187"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/ContactRequest.php" crc="1554158989253"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/CommentFormRequest.php" crc="1554057408398"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Requests/AuthorRequest.php" crc="1554749144777"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Middleware/VerifyCsrfToken.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Middleware/TrustProxies.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Middleware/TrimStrings.php" crc="1551385902000"/>
@@ -6883,21 +7323,32 @@
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/Auth/RegisterController.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/Auth/LoginController.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/Auth/ForgotPasswordController.php" crc="1551385902000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/PagesControllers.php" crc="1553632417768"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/SpecialisationController.php" crc="1558727352731"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/ParcourController.php" crc="1554152550774"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/PagesControllers.php" crc="1555440278968"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/MemoireController.php" crc="1554738920118"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/HomeController.php" crc="1554058128794"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/EnseignantController.php" crc="1554109549954"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/DiplomeController.php" crc="1558726749139"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/DepartementController.php" crc="1554110315531"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/CovertPDFController.php" crc="1558775516818"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/Controller.php" crc="1551385902000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/AuthorController.php" crc="1553873707338"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/AnyController.php" crc="1553761699894"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/ContactController.php" crc="1554159434058"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/AuthorController.php" crc="1555055858118"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Controllers/AbouteController.php" crc="1555440248099"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Http/Kernel.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Exceptions/Handler.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Console/Kernel.php" crc="1551385902000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/User.php" crc="1551385902000"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Specialisation.php" crc="1553706602826"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Parcour.php" crc="1553706471442"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Memoire.php" crc="1553811946034"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Enseignant.php" crc="1553811932580"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Diplome.php" crc="1553706567090"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/User.php" crc="1554749702586"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Specialisation.php" crc="1558727154423"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Role.php" crc="1554749765894"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Parcour.php" crc="1553973889198"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Memoire.php" crc="1555132161996"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Enseignant.php" crc="1555132123555"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Diplome.php" crc="1558726222463"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Departement.php" crc="1553706652154"/>
-  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Author.php" crc="1553811958823"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Contact.php" crc="1554160239716"/>
+  <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/app/Author.php" crc="1555263241990"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/webpack.mix.js" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/server.php" crc="1551385902000"/>
   <file name="/home/faouzi-el-mansour/Laravel_Project/Memoire/phpunit.xml" crc="1551385902000"/>

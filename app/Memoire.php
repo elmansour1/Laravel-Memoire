@@ -14,11 +14,11 @@ class Memoire extends Model
     }
 
      public function enseignants(){
-    	return $this->belongsToMany('App\Enseignant');
+    	return $this->belongsToMany('App\Enseignant')->withTimestamps();
     }
 
     public function authors(){
-    	return $this->belongsToMany('App\Author');
+    	return $this->belongsToMany('App\Author')->withTimestamps();
     }
 
 }

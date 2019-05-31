@@ -12,7 +12,7 @@
 */
 
 Route::get('/','PagesControllers@home');
-Route::get('/about','PagesControllers@about');
+Route::resource('/about','AbouteController');
 Route::resource('/contact','ContactController');
 Route::resource('/author','AuthorController');
 Route::resource('/memoire','MemoireController');
@@ -24,3 +24,6 @@ Route::resource('/specialisation','SpecialisationController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// Route::get('fichier','ConvertToPdf@index');
+// Route::get('fichier/pdf','CovertPDFController@pdf');

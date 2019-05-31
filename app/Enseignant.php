@@ -10,6 +10,6 @@ class Enseignant extends Model
     protected $guarded = ['id'];
 
     public function memoires(){
-    	return $this->belongsToMany('App\Memoire');
+    	return $this->belongsToMany('App\Memoire')->withTimestamps();
     }
 }

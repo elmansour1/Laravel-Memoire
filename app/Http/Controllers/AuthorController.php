@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Author;
 use App\Http\Requests\AuthorRequest;
+use Illuminate\Support\Facades\Session;
 
 class AuthorController extends Controller
 {
@@ -40,6 +41,7 @@ class AuthorController extends Controller
     {
         $auteur = Author::create($request->all());
         //$this->authorize('pass', $auteur);
+        Session::flash('success','The author has been create');
         return redirect(route('author.index'));
     }
 
@@ -78,7 +80,7 @@ class AuthorController extends Controller
         // dd($request->all());
          $auteur = Author::findOrFail($id);
          $auteur->update($request->all());
-
+         Session::flash('info','The author has been update');
          return redirect(route('author.index'));
     }
 
@@ -93,6 +95,7 @@ class AuthorController extends Controller
         $auteur = Author::findOrFail($id);
         $auteur->delete();
        // $this->authorize('pass',$auteur);
-        return back()->with('info','Supprimer avec Succees');
+        //Session::flash('danger','The author has been delete');
+        return back()->with('danger','Supprimer avec Succees');
     }
 }

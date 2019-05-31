@@ -15,6 +15,14 @@
 							{!! Form::text('titre',null,['class'=>'form-control col-sm-6']) !!}
 							{!! $errors->first('titre','<small class="help-block">:message</small>') !!}
 						</div>
+						<div class="form-group row">
+							{!! Form::label('parcours','Parcour',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
+							{!! Form::select('parcour_id',$parcours,null,['class'=>'form-control col-sm-6']) !!}
+						</div> 
+						<div class="form-group row">
+							{!! Form::label('departements','Departement',['class'=>'col-md-4 col-form-label text-md-righ']) !!}
+							{!! Form::select('departement_id',$departements,null,['class'=>'form-control col-sm-6']) !!}
+						</div> 
 						<div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                             	<a class="btn btn-default col-form-label text-md-righ " href="{{route('specialisation.index')}}">Cancel !</a>

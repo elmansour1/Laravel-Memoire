@@ -11,8 +11,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css')}}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{asset('css/myStyle.css')}}">
-        <script type="text/javascript" src="{{ asset('lib/bootstrap.min.js')}}"></script>
-        <script type="text/javascript" src="{{ asset('lib/jquery.min.js')}}"></script>
+        
 
         <!-- Styles -->
 
@@ -20,7 +19,12 @@
        
     </head>
     <body>
-
+        <header>
+          <div class="form-group">
+            <h1 class="col-lg-5">Bienvenu sur l'application de  </h1>
+            <img src="{{asset('image/logo1.png')}}" />
+          </div>
+        </header>
          <ul class="nav nav-tabs bar" id="myTab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="home-tab" data-toggle="tab" href="/" role="tab" aria-controls="home" aria-selected="true">Home</a>
@@ -74,7 +78,8 @@
         <div class="container">
             @yield('content')
         </div>
-
-       
+        <!-- <div>Tous droit reserve copyreight</div> -->
+       <script type="text/javascript" src="{{ asset('lib/bootstrap.min.js')}}"></script>
+      <script type="text/javascript" src="{{ asset('lib/jquery.min.js')}}"></script>
     </body>
 </html>

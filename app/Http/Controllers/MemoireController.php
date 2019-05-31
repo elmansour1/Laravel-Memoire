@@ -7,6 +7,7 @@ use App\Http\Requests\MemoireRequest;
 
 use Illuminate\Support\Facades\Storage;
 
+use App\Author;
 use App\Memoire;
 use App\Parcour;
 use App\Enseignant;
@@ -35,7 +36,8 @@ class MemoireController extends Controller
         //$memoires = Memoire::get();
         $parcours = Parcour::orderBy('id')->pluck('cycle','id');
         $enseignants = Enseignant::orderBy('nom','ASC')->pluck('nom','id');
-       return view('memoire.create', compact('parcours','enseignants'));
+        $auteurs = Author::orderBy('nom','ASC')->pluck('nom','id');
+       return view('memoire.create', compact('parcours','enseignants','auteurs'));
     }
 
     /**
@@ -48,11 +50,12 @@ class MemoireController extends Controller
     {
         $memoire = Memoire::create($request->all());
 
-        if($request->file('document')){
-            $path = Storage::disk('public')->put('document',$request->file('document'));
-            $memoire->fill(['document',asset($path)])->save();
-        }
-
+        $document = $request->file('document');
+        $destination_path = public_path().'/files';
+        $extension = $document->getClientOriginalExtension();
+        $files = $document->getClientOriginalName();
+        $fileName = $files.'_'.time().'_'.$extension;
+        $document->move($destination_path,$fileName);
         $memoire->parcour()->associate($request->get('parcours'));
         $memoire->enseignants()->attach($request->get('enseignants'));
 

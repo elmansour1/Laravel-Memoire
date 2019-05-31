@@ -3,7 +3,11 @@
 @section('content')
 	<div class="container">
 		<div class="card">
-			<div class="card-header"><h1>Tous les memoires</h1><a class="btn btn-success" href="{{ route('memoire.create')}}">Add</a> </div>
+			<div class="card-header">
+				<h1>Tous les memoires</h1>
+				<a class="btn btn-success" href="{{ route('memoire.create')}}">Add</a>
+				<a href="" class="btn btn-info pull-right">Imprimer en PDF</a>
+			 </div>
 			<div class="card-body">
 				<table class="table">
 					<thead>
@@ -13,7 +17,7 @@
 							<th>Resume</th>
 							<th>Abstract</th>
 							<th>Parcour</th>
-							<th>Nom du Document</th>
+							<!-- <th>Nom du Document</th> -->
 							<th>Editer</th>
 							<th>Supprimer</th>
 						</tr>
@@ -26,7 +30,6 @@
 							<td>{{ $memoire->resume}}</td>
 							<td>{{ $memoire->abstract}}</td>
 							<td>{{ $memoire->parcour->cycle}}</td>
-							<td><a href="{{ $memoire->document}}">{{ $memoire->document}}</a></td>
 							<td><a class="btn btn-sm btn-info" href="{{ route('memoire.edit',$memoire)}}">Edit</a></td>
 							<td>
 								{!! Form::open(['route'=>['memoire.destroy',$memoire->id],'method'=>'DELETE']) !!}

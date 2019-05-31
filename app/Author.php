@@ -9,6 +9,6 @@ class Author extends Model
    protected $fillable = ['nom','matricule','email','telephone'];
 
    public function memoires(){
-   	return $this->belongsToMany('App\Memoire');
+   	return $this->belongsToMany('App\Memoire')->withTimestamps();
    }
 }

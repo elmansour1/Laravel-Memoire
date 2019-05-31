@@ -1,10 +1,26 @@
 @extends('welcome')
 
 @section('content')
-	
+	@if(Session::has('success'))
+		<div class="alert alert-success">
+			{{ Session('success')}}
+		</div>
+	@elseif(Session::has('info'))
+		<div class="alert alert-info">
+			{{ Session('info')}}
+		</div>
+	@elseif(Session::has('danger'))
+		<div class="alert alert-danger">
+			{{ Session('danger')}}
+		</div>
+	@endif
 	<div class="container">
 		<div class="card card-info">
-			<div class="card-header"><h1>All Authors</h1> <a class="btn btn-md btn-success" href="{{ route('author.create')}}">add</a></div>
+			<div class="card-header">
+				<h1>All Authors</h1> 
+				<a class="btn btn-md btn-success" href="{{ route('author.create')}}">add</a>
+				<a href="{{ url('fichier') }}" class="btn btn-info pull-right">Imprimer en PDF</a>
+			</div>
 			<div class="card-body">
 				<table class="table">
 					<thead>

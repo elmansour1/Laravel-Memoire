@@ -1,8 +1,15 @@
 @extends('welcome')
 
 @section('content')
+
+<div class="container">
+		<div class="card card-info">
+			<div class="card-header">
 	<h1>Diplomes</h1>
 	<a class="btn btn-success" href="{{ route('diplome.create')}}">Add</a>
+	<a href="" class="btn btn-info pull-right">Imprimer en PDF</a>
+	</div>
+		<div class="card-body">
 		<table class="table">
 			<thead>
 				<!-- <th>ID</th> -->
@@ -24,4 +31,7 @@
 			</tbody>
 			@endforeach
 		</table>
+		</div>
+		</div>
+	</div>
 @stop
