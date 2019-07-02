@@ -140,9 +140,19 @@ class CovertPDFController extends Controller
     }
 
     function pdf(){
-        $pdf = App::make('dompdf.wrapper');
-        $pdf->loadHTML($this->convert_data_to_html());
-        $pdf->stream('document.pdf');
+         $datas = DB::table('authors')
+            ->limit(5)
+            ->get();
+       // //$auteurs = $this->get_data();
+       // $pdf= PDF::loadView('auteur.pdf_view',$data);
+       // //$pdf->stream('document.pdf');
+       //  return $pdf->download('fichier.pdf');
+        // $data = [
+        //         'title' =>'PDF',
+        //         'content' => 'lol'
+        // ];
+        $pdf = PDF::loadView('auteur.pdf_view',compact('datas'));
+        return $pdf->download('test.pdf');
     }
 
     

@@ -10,6 +10,9 @@ class PagesControllers extends Controller
     	return view('pages.home');
     }
 
+    public function authentication(){
+    	return view('authentication');
+    }
 
     public function contact(){
     	return view('pages.contact');

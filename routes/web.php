@@ -11,7 +11,8 @@
 |
 */
 
-Route::get('/','PagesControllers@home');
+
+Route::get('/','PagesControllers@authentication');
 Route::resource('/about','AbouteController');
 Route::resource('/contact','ContactController');
 Route::resource('/author','AuthorController');
@@ -23,7 +24,10 @@ Route::resource('/parcour','ParcourController');
 Route::resource('/specialisation','SpecialisationController');
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/accueil', 'HomeController@index');
 
-// Route::get('fichier','ConvertToPdf@index');
-// Route::get('fichier/pdf','CovertPDFController@pdf');
+//Route::get('fichier','ConvertToPdf@index');
+ Route::get('fichier/pdf','CovertPDFController@pdf');
+ Route::get('/toto',function(){
+ 	return view('toto');
+ });

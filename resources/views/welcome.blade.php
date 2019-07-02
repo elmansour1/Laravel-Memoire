@@ -25,10 +25,12 @@
             <img src="{{asset('image/logo1.png')}}" />
           </div>
         </header>
+           @if(Session::has('success'))
+              <div class="alert alert-success">
+                {{ Session('success')}}
+              </div>
+            @endif
          <ul class="nav nav-tabs bar" id="myTab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="/" role="tab" aria-controls="home" aria-selected="true">Home</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" id="author-tab" data-toggle="tab" href="/author" role="tab" aria-controls="author" aria-selected="false">Auteur</a>
           </li>
@@ -59,6 +61,7 @@
         </ul>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+  <div class="tab-pane fade" id="author" role="tabpanel" aria-labelledby="author-tab">...</div>
   <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">...</div>
   <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
 </div>
@@ -79,6 +82,11 @@
             @yield('content')
         </div>
         <!-- <div>Tous droit reserve copyreight</div> -->
+        <script>
+  $(function () {
+    $('#myTab li:last-child a').tab('show')
+  })
+</script>
        <script type="text/javascript" src="{{ asset('lib/bootstrap.min.js')}}"></script>
       <script type="text/javascript" src="{{ asset('lib/jquery.min.js')}}"></script>
     </body>
